@@ -1,7 +1,7 @@
 name: Check for New LinkedIn Interactions and Add to Orbit
 on:
   schedule:
-    - cron: "30 15 */1 * *"
+    - cron: "0 0 */1 * *"
   workflow_dispatch:
 jobs:
   comments-workflow:
